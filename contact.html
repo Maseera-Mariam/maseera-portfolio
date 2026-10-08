@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Maseera Mariam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<nav class="navbar">
+    <a class="logo" href="index.html">Maseera<span>.</span></a>
+    <button class="menu-btn" id="menuBtn">☰</button>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="biodata.html">Bio-data</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+</header>
+
+<main class="page">
+<section class="section">
+    <div class="section-heading">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h1>Contact Me</h1>
+    </div>
+
+    <div class="contact-grid">
+        <div class="contact-info">
+            <div><strong>Email</strong><p>maseeramariamkhan@gmail.com</p></div>
+            <div><strong>Phone</strong><p>+91-7975967675</p></div>
+            <div><strong>Location</strong><p>Bengaluru, India</p></div>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Enter your name">
+
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter your email">
+
+            <label for="message">Message</label>
+            <textarea id="message" rows="6" placeholder="Write your message"></textarea>
+
+            <button class="btn" type="submit">Send Message</button>
+            <p id="formMessage" class="form-message"></p>
+        </form>
+    </div>
+</section>
+</main>
+
+<footer><p>© <span id="year"></span> Maseera Mariam. All Rights Reserved.</p></footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
